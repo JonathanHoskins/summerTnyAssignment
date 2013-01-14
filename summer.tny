@@ -1,8 +1,4 @@
 read m;
 read n;
-read x;
-if x > 0 then
-	SUM := (n-m+1)(n+m)/2
-	until x = 0;
-	write SUM
-end
+SUM := (n-m+1)(n+m)/2;
+write SUM
